@@ -415,8 +415,6 @@ img {
 
 
 
-
-
 @media(max-width:800px) {
   .preco {
     padding-left:10px;
@@ -430,3 +428,19 @@ img {
     order:-1;
   }
 }
+
+ @media(max-width:400px) {
+  
+  .introducao {
+    display: flex;
+    flex-wrap:wrap;
+    max-width:960px;
+    padding: 60px 10px;
+    font-size: 2.5em;
+    
+  }
+
+   
+
+}
+
